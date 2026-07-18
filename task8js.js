@@ -32,7 +32,7 @@ addTaskBtn.addEventListener("click", function () {
 
     taskInput.value = "";
     let button= document.createElement("button");
-    button.textContent = "X";
+    button.textContent = "X"
     listItem.appendChild(button);
     
     button.addEventListener("click", function () {
